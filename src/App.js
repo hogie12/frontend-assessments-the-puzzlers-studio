@@ -9,8 +9,6 @@ function App() {
         sx={{
           display: "flex",
           flexDirection: "column",
-          minHeight: "100vh",
-          background: "#FFF8EF",
         }}
       >
         <Box

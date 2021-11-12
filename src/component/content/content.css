@@ -45,22 +45,31 @@
 .sub {
   font-size: 30px;
   margin: 0px;
+  font-family: "spooftrial regular";
 }
 
 .head {
   font-size: 98px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
   margin: 0px;
+  font-family: "spooftrial regular";
 }
 
 .desc {
   font-size: 20px;
-  width: 350px;
   margin-top: 150px;
   margin-left: 100px;
+  line-height: 150%;
+  width: 350.9px;
+  height: 90px;
 }
 
-.desc > p >  span {
-    font-weight: bold;
+.desc > p > span {
+  font-weight: bold;
 }
 
 .head > span {
