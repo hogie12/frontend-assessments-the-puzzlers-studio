@@ -1,0 +1,169 @@
+.content {
+  display: flex;
+  padding-left: 191px;
+  padding-right: 77px;
+  padding-top: 103px;
+  justify-content: space-between;
+}
+
+.card1 {
+  position: absolute;
+  z-index: 1;
+  top: 218px;
+  left: 515px;
+}
+
+.card2 {
+  position: absolute;
+  top: 356px;
+  left: 137px;
+  z-index: 1;
+}
+.card3 {
+  position: absolute;
+  top: 524px;
+  left: 569px;
+  z-index: 1;
+}
+
+.content-pic > img {
+  width: 416px;
+  height: 551px;
+  border-radius: 24px;
+}
+
+.content-text {
+  color: #004e4c;
+  margin-left: 174px;
+  margin-bottom: 217px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub {
+  font-size: 30px;
+  margin: 0px;
+}
+
+.head {
+  font-size: 98px;
+  margin: 0px;
+}
+
+.desc {
+  font-size: 20px;
+  width: 350px;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.desc > p >  span {
+    font-weight: bold;
+}
+
+.head > span {
+  color: #fda622;
+}
+
+.pic-text {
+  color: #004e4c;
+}
+
+.pic-text > h3 {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+
+.pic-text > p {
+  margin-top: 0px;
+  font-size: 13px;
+}
+
+.pin1 {
+  position: absolute;
+  top: 455px;
+  left: 630px;
+}
+
+.pin2 {
+  position: absolute;
+  top: 279px;
+  left: 137px;
+}
+
+.desktop-line {
+  position: absolute;
+  left: 658px;
+  top: 571px;
+}
+
+.phone-line {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .content-pic > img {
+    width: 319px;
+    height: 422px;
+  }
+  .content {
+    padding: 0;
+    padding-top: 60px;
+    justify-content: none;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .content-pic {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .card1 {
+    top: 863px;
+    left: 51px;
+  }
+  .card2 {
+    top: 999px;
+    left: 209px;
+  }
+  .card3 {
+    top: 1089px;
+    left: 28px;
+  }
+  .content-text {
+    margin: 0;
+    margin-left: 26px;
+    width: auto;
+  }
+  .head {
+    font-size: 54px;
+  }
+  .sub {
+    font-size: 22px;
+  }
+  .desc {
+    margin: 0;
+    margin-bottom: 62px;
+    font-size: 17px;
+    width: auto;
+  }
+  .pin1 {
+    display: none;
+  }
+  .pin2 {
+    display: none;
+  }
+  .desktop-line {
+    display: none;
+  }
+  .phone-line {
+    display: block;
+    position: absolute;
+    width: 319px;
+    height: 540px;
+    left: 28px;
+    top: 863px;
+  }
+}

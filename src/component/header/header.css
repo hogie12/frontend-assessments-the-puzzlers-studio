@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-item{
+    display: contents;
+    list-style: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: #004E4C;
+}
+
+.navbar-link{
+    display: flex;
+    width:720px;
+    justify-content: space-between;
+}
+
+.menu{
+    display:none
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-item{
+        display:none;
+    }
+    .navbar-link{
+        width:auto;
+    }
+    .menu{
+        display: contents;
+        margin-left: 50px;
+    }
+}
